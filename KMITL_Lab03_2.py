@@ -29,5 +29,4 @@ elif(c>=a and c>=b):
         min=a
 print("min, mid, max ==> %.2f, %.2f, %.2f"%(min,mid,max))
 print("Average ==> %.2f"%((a+b+c)/3))
-#test
 

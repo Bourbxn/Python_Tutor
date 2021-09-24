@@ -9,7 +9,7 @@ def bmiCalculator(a,b) :
     if bmi<18.5:
         print("underweight")
     elif (bmi>=18.5 and bmi<=22.9):
-        print("normal")
+        print("normal")B
     else:
         print("overweight")
 

@@ -30,6 +30,6 @@ if(len(numList)%2==0):
     else:
         median/=2
 else:
-    posMid1 = (len(numList)+1)//2
+    posMid1 = ((len(numList)+1)//2)-1
     median = numList[posMid1]
 print("Median =",median)

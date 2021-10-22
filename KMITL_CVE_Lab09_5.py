@@ -32,4 +32,7 @@ if(len(numList)%2==0):
 else:
     posMid1 = ((len(numList)+1)//2)-1
     median = numList[posMid1]
-print("Median = %.2f"%median)
+if(median==int(median)):
+    print("Median = ",median)
+else:
+    print("Median = %.2f"%median)

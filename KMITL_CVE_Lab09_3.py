@@ -1,5 +1,5 @@
 print(" *** Sequence Verification ***")
-numList = input().split(" ")
+numList = input("Enter Input : ").split(" ")
 asCheck = 0
 deCheck = 0
 for i in range(len(numList)-1):

@@ -12,3 +12,9 @@ print(tupl)
 # tuple sort
 tupl.sort(reverse=True)
 print(tupl)
+# Histrogram
+print("*** The Histogram of Age ***")
+for i in range(len(tupl)):
+    print(tupl[i][0][0:3], ":", end=" ")
+    print("=" * (int(tupl[i][1])), end="")
+    print(int(tupl[i][1]))

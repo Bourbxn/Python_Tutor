@@ -7,4 +7,6 @@ for i in range(len(text) // 2):
 for i in range(len(text) // 2):
     if text[i * 2] in dict_old:
         dict_old[text[i * 2]] += int(text[i * 2 + 1])
+    else:
+        dict_old[text[i * 2]] = int(text[i * 2 + 1])
 print("dict_new =", dict_old)

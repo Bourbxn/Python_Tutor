@@ -1,6 +1,7 @@
 def diff(a, b):
     x = int(b[0]) - int(a[0])
     y = int(b[1]) - int(a[1])
+    return "(%d, %d)" % (x, y)
 
 
 print("  Find difference between A(x1,y1) and B(x2,y2) ")
